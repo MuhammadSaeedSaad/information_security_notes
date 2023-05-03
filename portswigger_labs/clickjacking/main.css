@@ -1,0 +1,23 @@
+#target_website {
+    position:relative;
+    width: 1500px;
+    height: 900px;
+    opacity: 0.0001;
+    z-index:2;
+    }
+    
+#decoy_website {
+    position:absolute;
+    width: 1500px;
+    height: 900px;
+    z-index:1;
+    }
+
+#decoy_website button {
+    position: relative;
+    background-color: brown;
+    width: 122px;
+    height: 35px;
+    top: 480px;
+    left: 196px
+    }
