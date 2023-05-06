@@ -1,4 +1,4 @@
-# Clickjacking: Exploiting clickjacking vulnerability to trigger DOM-based XSS
+# Clickjacking: Multistep clickjacking
 
 ## failed payloads
 1. the first step only
